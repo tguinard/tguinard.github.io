@@ -1,5 +1,8 @@
 <script>
-var myurls = ["https://www.google.com", "http://www.bing.com", "https://www.wikipedia.org/", "https://www.yahoo.com/"];
-var randomurl = myurls[Math.floor(Math.random()* 4)]
+var myurls = ["https://docs.google.com/forms/d/e/1FAIpQLSd6DOof8GvoPijRZRf1d1KaXS3qcYBwEdc6V0WWEva0nwkc_w/viewform",
+    "https://docs.google.com/forms/d/e/1FAIpQLScbWGbjhVhnjVskTiohodSP2bvoBMjY__HdVJVLoRFHLf1SAQ/viewform",
+    "https://docs.google.com/forms/d/e/1FAIpQLScX4aXGRUJXNAjC0IAYZwJHOYYA1XmdhBtycxUTiwiUK9nQvQ/viewform",
+    "https://docs.google.com/forms/d/e/1FAIpQLSeSNtJOsH0sk8SpHtsIO1gza0HhYRQmfVrBB63mmg6eQ6WuKg/viewform"];
+var randomurl = myurls[Math.floor(Math.random()* myurls.length)];
 window.location.replace(randomurl);
 </script>
